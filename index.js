@@ -58,6 +58,7 @@ document.addEventListener('DOMContentLoaded', function() {
       <h1 style="margin-bottom: 0px !important;">Roller Gen 5</h1>
       <p style="color: #888 !important; margin-top: 5px;">Gaming Wired Headphone</p>
       <p style="width: 70%; line-height: 25px;">Roller Gen 5 is our best gaming headset comes up with good NFC and sound quality that amuses both music listeners and gamers!</p>
+      <h2 style="color: #d300fd;">4000 Rs</h2>
       <button class="cssbuttons-io-button" style="margin-left: 0px; margin-right: auto; margin-top: 10px;">
           Buy Now
           <div class="icon">
@@ -84,6 +85,7 @@ document.addEventListener('DOMContentLoaded', function() {
       <h1 style="margin-bottom: 0px !important;">Folder X1</h1>
       <p style="color: #888 !important; margin-top: 5px;">Wireless foldable Headset</p>
       <p style="width: 70%; line-height: 25px;">Folder X1 is a wireless headset benificial for use in travelling , sports and gaming with fast connecting transmission speed!</p>
+      <h2 style="color: #d300fd;">3500 Rs</h2>
       <button class="cssbuttons-io-button" style="margin-left: 0px; margin-right: auto; margin-top: 10px;">
           Buy Now
           <div class="icon">
@@ -110,6 +112,7 @@ document.addEventListener('DOMContentLoaded', function() {
       <h1 style="margin-bottom: 0px !important;">Glow P6</h1>
       <p style="color: #888 !important; margin-top: 5px;">Wireless Headset</p>
       <p style="width: 70%; line-height: 25px;">Glow P6 is a wireless headset it has unique color and our special edition headset availaible in limited quantity!</p>
+      <h2 style="color: #d300fd;">9000 Rs</h2>
       <button class="cssbuttons-io-button" style="margin-left: 0px; margin-right: auto; margin-top: 10px;">
           Buy Now
           <div class="icon">
