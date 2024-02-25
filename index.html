@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PMS</title>
     <link rel="stylesheet" href="index.css">
-    <script src="index.js"></script>
+    <script defer src="index.js"></script>
     <link rel="stylesheet" href="buttons.css">
 </head>
 <body>
@@ -51,17 +51,36 @@
         </div>
     </div>
     <div class="screenBody" style="overflow-x: hidden;">
+        <!-- What's New -->
         <div id="newUpdates" style="display: flex; flex-direction: row; background-color: #db63ff18; margin: 80px; border-radius: 30px;"> 
             <!-- left side -->
-            <div style="width: 60%; color: white; margin: 120px; margin-right: 100px !important;  display: flex; flex-direction: column;">
+            <div style="width: 60%; color: white; margin-top: 50px; margin-bottom: 50px; margin-left: 120px; margin-right: 50px !important;  display: flex; flex-direction: column;">
                 <h1 style="margin-left: auto; font-weight: bolder;">The Latest Device With Latest Features And Upgraded Sound Quality</h1>
                 <span style="font-size: medium;">The latest headphone product that we have with latest wired technology with affordable price and specification.</span>
                 <button class="btn" style="width: 150px; font-weight: bolder; margin-top: 30px;"> Buy Now
                 </button>         
             </div>
             <!-- right side -->
-            <div style="width: 40%; margin: 70px; margin-top: 100px !important;">
+            <div style="width: 40%; margin: 70px; margin-top: 50px !important;">
                 <img src="product1.png" alt="" style="width: 350px; height: 350px; ">
+            </div>
+        </div>
+        <!-- Catagories -->
+        <div style="background-color: #212b32;" id="catagories">
+            <!-- Buttons -->
+            <div style="display: flex; flex-direction: row; gap: 100px; padding: 30px;">
+                <button class="btn" id="product1" style="width: 180px; font-weight: bolder; margin-top: 30px; margin-left: auto;" (click)="productChange(1)"> Roller Gen 5
+                </button> 
+                <button class="btn" id="product2" style="width: 180px; font-weight: bolder; margin-top: 30px;" (click)="productChange(2)"> Folder X1
+                </button> 
+                <button class="btn" id="product3" style="width: 180px; font-weight: bolder; margin-top: 30px; margin-right: auto;" (click)="productChange(3)"> Glow P6
+                </button> 
+            </div>
+            <!-- Products -->
+            <div style="padding: 30px; padding-bottom: 70px !important;">
+                <!-- Product -->
+                <div style="width: 80%; margin-left: auto; margin-right: auto;  display: flex; flex-direction: row; " id="pd1">
+                </div>
             </div>
         </div>
     </div>
