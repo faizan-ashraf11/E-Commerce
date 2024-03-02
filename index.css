@@ -56,3 +56,10 @@ a{
     pointer-events: none;
     filter: blur(10px);
 }
+
+.Text-Gradient {
+    background: linear-gradient(to bottom, white 30%, #d405e8);
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+  
